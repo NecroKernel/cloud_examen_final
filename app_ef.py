@@ -12,7 +12,7 @@ from streamlit_pdf_viewer import pdf_viewer
 # CONFIGURACIÓN abel
 # =======================
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-MONGODB_URI = "mongodb+srv://aamontesdeocav_db_user:<DRJU7Fz7wkqJGFdr>@cluster-ef-aamdov.ws2pzl9.mongodb.net/"#os.getenv("MONGODB_URI")
+MONGODB_URI = "mongodb+srv://aamontesdeocav_db_user:DRJU7Fz7wkqJGFdr@cluster-ef-aamdov.ws2pzl9.mongodb.net/"#os.getenv("MONGODB_URI")
 COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 USER = os.getenv("USER", "")
 
