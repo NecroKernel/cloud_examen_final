@@ -9,7 +9,7 @@ import os
 from streamlit_pdf_viewer import pdf_viewer
 
 # =======================
-# CONFIGURACIÓN
+# CONFIGURACIÓN abel
 # =======================
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 MONGODB_URI = os.getenv("MONGODB_URI")
