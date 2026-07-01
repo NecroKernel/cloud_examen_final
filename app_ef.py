@@ -12,7 +12,7 @@ from streamlit_pdf_viewer import pdf_viewer
 # CONFIGURACIÓN abel
 # =======================
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-MONGODB_URI = "mongodb+srv://aamontesdeocav_db_user:DRJU7Fz7wkqJGFdr@cluster-ef-aamdov.ws2pzl9.mongodb.net/"#os.getenv("MONGODB_URI")
+MONGODB_URI = os.getenv("MONGODB_URI")#"mongodb+srv://aamontesdeocav_db_user:DRJU7Fz7wkqJGFdr@cluster-ef-aamdov.ws2pzl9.mongodb.net/"
 COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 USER = os.getenv("USER", "")
 
@@ -180,7 +180,7 @@ Responde en español, de forma clara.
 # =======================
 
 st.set_page_config(page_title="ChatBot", page_icon="📚")
-st.title("📚 Chat con PDFs en MongoDB + Gemini + Cohere: " + USER)
+st.title("📚 Chat con PDFs en MongoDB + Gemini + Cohere: Hecho por Abel" + USER)
 
 archivo_pdf = st.file_uploader("📤 Sube un PDF", type=["pdf"])
 
